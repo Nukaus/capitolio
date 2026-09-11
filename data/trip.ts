@@ -18,12 +18,12 @@ export const trip = {
     features: ["Piscina com cascata", "Ofurô aquecido", "Sauna", "Churrasqueira", "Cervejeira", "Cozinha completa", "Wi-Fi", "Ar-condicionado nos quartos", "Garagem para até 6 carros", "Vista para montanhas", "Vista para o lago", "Pet friendly"],
   },
   experiences: [
-    { id: "paua", name: "Parque Pauá + Mirante dos Canyons", tag: "Vistas épicas", image: "/iceland-northern-lights-waterfalls-dramatic-landsc.jpg", description: "Cânions, cachoeiras, mirantes e águas da Serra da Canastra em um só circuito.", duration: "Dia de aventura", price: "A partir de R$ 81", level: "Intenso", details: ["Tirolesas com mais de 600 m e quase 100 m de altura", "Ponte pênsil a aproximadamente 110 m", "Piscinas naturais e Mirante Escondido", "Valores informados no planejamento: ingresso R$ 81; visitação + tirolesa R$ 171; lancha R$ 115 por pessoa."] },
-    { id: "top-tour", name: "Top Tour — Passeio de Lancha", tag: "Água", image: "/maldives-overwater-bungalows-crystal-clear-water.jpg", description: "Três horas navegando entre cachoeiras, cânions e o Lago de Furnas.", duration: "3 horas", price: "A partir de R$ 120", level: "Leve", details: ["Cachoeira Lagoa Azul, Canyons de Furnas e Vale dos Tucanos", "Cachoeira da Gruta, Orquídeas e Bar Flutuante", "Privativo inclui Pedra da Sogra, playlist e Bluetooth", "Valores planejados: compartilhado R$ 120/pessoa; privativo R$ 1.440 até 12 pessoas."] },
-    { id: "capivara", name: "Cachoeira da Capivara", tag: "Relax", image: "/bali-indonesia-rice-terraces-tropical-paradise.jpg", description: "Trilhas, ofurôs e piscinas naturais para desacelerar em meio à serra.", duration: "Dia inteiro", price: "A partir de R$ 69,90", level: "Moderado", details: ["Trilha de aproximadamente 900 m e poço com cerca de 16 m", "Cachoeira da Pedra Ancorada a cerca de 200 m do estacionamento", "Ofurôs, piscinas naturais e área para relaxar", "Valores do material: entrada R$ 69,90 a R$ 89,90; UTV a partir de R$ 380."] },
-    { id: "canastra", name: "Ecoparque Coração da Canastra", tag: "Natureza", image: "/african-safari-wildlife-elephants-sunset.jpg", description: "Um convite para sentir a força da natureza mineira.", duration: "A combinar", price: "R$ 60 por pessoa", level: "Leve", details: ["Ingresso informado no planejamento: R$ 60 por pessoa", "Pagamento somente em dinheiro, conforme material recebido."] },
-    { id: "viking", name: "Retiro Viking", tag: "Aventura", image: "/kyoto-japan-traditional-temples-cherry-blossoms.jpg", description: "Uma parada diferente para quem quer adicionar aventura ao roteiro.", duration: "A combinar", price: "R$ 40 por pessoa", level: "Moderado", details: ["Ingresso informado no planejamento: R$ 40 por pessoa via Pix."] },
-    { id: "canela", name: "Canela de Ema", tag: "Natureza", image: "/stunning-tropical-beach-paradise-with-crystal-clea.jpg", description: "Trilha aquática, piscinas naturais, ofurô e culinária mineira.", duration: "Dia inteiro", price: "A partir de R$ 63", level: "Moderado", details: ["Trilha Verde com aproximadamente 650 m dentro da água", "Cachoeira No Limite, rapel e restaurante mineiro", "Entrada + almoço R$ 108; trilha alta com almoço R$ 399."] },
+    { id: "paua", name: "Parque Pauá + Mirante dos Canyons", tag: "Vistas épicas", image: "/images/passeios/paua.jpg", description: "Cânions, cachoeiras, mirantes e águas da Serra da Canastra em um só circuito.", duration: "Dia de aventura", price: "A partir de R$ 81", level: "Intenso", details: ["Tirolesas com mais de 600 m e quase 100 m de altura", "Ponte pênsil a aproximadamente 110 m", "Piscinas naturais e Mirante Escondido", "Valores informados no planejamento: ingresso R$ 81; visitação + tirolesa R$ 171; lancha R$ 115 por pessoa."] },
+    { id: "top-tour", name: "Top Tour — Passeio de Lancha", tag: "Água", image: "/images/passeios/top-tour.jpg", description: "Três horas navegando entre cachoeiras, cânions e o Lago de Furnas.", duration: "3 horas", price: "A partir de R$ 120", level: "Leve", details: ["Cachoeira Lagoa Azul, Canyons de Furnas e Vale dos Tucanos", "Cachoeira da Gruta, Orquídeas e Bar Flutuante", "Privativo inclui Pedra da Sogra, playlist e Bluetooth", "Valores planejados: compartilhado R$ 120/pessoa; privativo R$ 1.440 até 12 pessoas."] },
+    { id: "capivara", name: "Cachoeira da Capivara", tag: "Relax", image: "/images/passeios/capivara.jpg", description: "Trilhas, ofurôs e piscinas naturais para desacelerar em meio à serra.", duration: "Dia inteiro", price: "A partir de R$ 69,90", level: "Moderado", details: ["Trilha de aproximadamente 900 m e poço com cerca de 16 m", "Cachoeira da Pedra Ancorada a cerca de 200 m do estacionamento", "Ofurôs, piscinas naturais e área para relaxar", "Valores do material: entrada R$ 69,90 a R$ 89,90; UTV a partir de R$ 380."] },
+    { id: "canastra", name: "Ecoparque Coração da Canastra", tag: "Natureza", image: "/images/passeios/canastra.jpg", description: "Um convite para sentir a força da natureza mineira.", duration: "A combinar", price: "R$ 60 por pessoa", level: "Leve", details: ["Ingresso informado no planejamento: R$ 60 por pessoa", "Pagamento somente em dinheiro, conforme material recebido."] },
+    { id: "viking", name: "Retiro Viking", tag: "Aventura", image: "/images/passeios/viking.jpg", description: "Uma parada diferente para quem quer adicionar aventura ao roteiro.", duration: "A combinar", price: "R$ 40 por pessoa", level: "Moderado", details: ["Ingresso informado no planejamento: R$ 40 por pessoa via Pix."] },
+    { id: "canela", name: "Canela de Ema", tag: "Natureza", image: "/images/passeios/canela-de-ema.jpg", description: "Trilha aquática, piscinas naturais, ofurô e culinária mineira.", duration: "Dia inteiro", price: "A partir de R$ 63", level: "Moderado", details: ["Trilha Verde com aproximadamente 650 m dentro da água", "Cachoeira No Limite, rapel e restaurante mineiro", "Entrada + almoço R$ 108; trilha alta com almoço R$ 399."] },
   ],
   itinerary: [
     { date: "25 SET", title: "Chegada", items: ["Saída de Belo Horizonte", "Viagem e paradas pelo caminho", "Chegada em Capitólio", "Check-in e conhecer a casa", "Noite livre"] },
@@ -42,14 +42,14 @@ export const mapsUrl = "https://www.google.com/maps/dir/Belo+Horizonte,+MG/Capit
 export const wazeUrl = "https://www.waze.com/ul?q=Capit%C3%B3lio%2C%20MG&navigate=yes"
 
 export const galleryImages = [
-  { src: "/placeholder.svg", alt: "Foto da casa em Escarpas do Lago" },
-  { src: "/placeholder.svg", alt: "Espaço de lazer da casa" },
-  { src: "/placeholder.svg", alt: "Vista para as montanhas" },
+  { src: "/images/casa/casa-01.jpg", alt: "Vista aérea da casa em Escarpas do Lago, com piscina e área externa" },
+  { src: "/images/casa/casa-02.jpg", alt: "Piscina e deck de madeira da casa, com vista para o entorno" },
+  { src: "/images/casa/casa-03.jpg", alt: "Área gourmet coberta da casa, com churrasqueira e cozinha externa" },
 ]
 
 export const placeholderImage = "/placeholder.svg"
 
-export const imageAvailable = false
+export const imageAvailable = true
 
 export const tripHeroImage = "/images/capitolio/lago-de-furnas.jpg"
 
@@ -87,7 +87,7 @@ export const heroImageFallback = "/stunning-tropical-beach-paradise-with-crystal
 
 export const accommodationImageFallback = "/placeholder.jpg"
 
-export const experienceImageFallback = "/bali-indonesia-rice-terraces-tropical-paradise.jpg"
+export const experienceImageFallback = "/images/passeios/paua.jpg"
 
 export const arrivalDate = new Date("2026-09-25T00:00:00-03:00")
 
